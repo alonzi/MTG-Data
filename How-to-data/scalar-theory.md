@@ -43,6 +43,8 @@ For me I am going to consider the 17 lands GIH WR. But with some caveats, and th
 ### So what is the context for Game in Hand Win Rate?
 I've stated that we need to know the context to apply a scalar. But what exactly is the context of Game in Hand Win Rate? When we think about Frank's pick orders it was straight forward, he said, 'for the purpose of the first-pack, first-pick (P1P1) decision in draft, answering the question “which card would you first-pick?” for every conceivable booster pack. ' That is some pretty clear context. However we do not have that clear definition for GIH WR. That is why it is so challenge to use it.
 
+The challenge with Game in Hand Win Rate is that its context is not a game state of a Magic game. When Frank publishes his pick orders he presents that scalar in the exact context of a Magic game, namely pack 1 pick 1. However there is never a moment in a Magic game where you have the context of a Game in Hand Win Rate.
+
 ### So is it usesless to consider Game in Hand Win Rate?
 Not at all. Let's look at the definition again:
 
@@ -54,7 +56,7 @@ Here we can see that this scalar contains information about the effectiveness of
 
 Then we could simply compare the value of this scalar for all the cards and make the correct selection. Of course this requires the collective knowledge of the universe, past, present, and future (CKotUPPaF). Which is something we will never have. So let's look at the difference between these two definitions and find some overlap.
 
-GIH WR contains information about how a card impacts your win rate and our imaginary scalar also contains information about how a card impacts our win rate. Some kernel of the information we are after is contained in GIH WR. The question is ...
+GIH WR contains information about how a card impacts your win rate and our imaginary scalar also contains information about how a card impacts our win rate. Some kernel of the information we are after is contained in GIH WR. And GIH WR is a knowable value. I can look it up. The question is ...
 
 ## Core question of Scalar Theory
 Is this context close enough to the context of the scalar?
