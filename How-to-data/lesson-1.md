@@ -1,5 +1,7 @@
-# Lesson 1: Scalars and Vectors and Tensors, oh my!
+# Lesson 1: Scalars and Vectors
 Hello and welcome to the first lesson in "How to Data". In this series we will look at how to use data. For the first lesson we will start a the very beginning. When you think about data you must start with thinking of data as a collection of information containers. We will break down the building blocks and apply them to decision making.
+
+## GOAL: Internalize the concept that scalars are distilled information to be used in their bespoke context.
 
 ## Step 1: Identify your goal
 For this lesson we will focus on two decisions a player makes during a limited game of magic.
@@ -10,8 +12,7 @@ Throughout the lesson we will refer to these two questions. Along the way we wil
 ## Step 2: Definitions
 These are the definitions we are going to use for this lesson.
 1. A scalar is a number.
-2. A vector is a group of scalars.
-3. A tensor is a group of vectors. [2]
+2. A vector is a group of scalars. [2]
 
 ## Step 3: Let's get into it, answering question #1 Which card to draft?
 Now things are going to get fun. Let's run out a little thought experiment and apply our new thinking. Imagine you are in a draft, it is pack 1 pick 1, you crack the pack and have to make a choice. What do you pick? and How much information do you need? Do you need a scalar? a vector? or something more complex?
