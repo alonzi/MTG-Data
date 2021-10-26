@@ -41,7 +41,7 @@ You are about halfway through a draft, you know you are playing White Blue (aka 
 I am going to consider the 17 Lands GIH WR. I've shifted my choice because of the context. But, there are some caveats, and that's the rub. When context isn't a perfect match we have caveats.
 
 ### So what is the context for Game in Hand Win Rate?
-I've stated that we need to know the context to apply a scalar. But what exactly is the context of "Game in Hand Win Rate"? When we think about Frank's pick orders it was straight forward, he said, 'for the purpose of the first-pack, first-pick (P1P1) decision in draft, answering the question “which card would you first-pick?” for every conceivable booster pack. ' That is some pretty clear context. He chose a particular game state and made the scalar to that state. However we do not have that clear game state definition for GIH WR.
+I've stated that we need to know the context to apply a scalar. But what exactly is the context of "Game in Hand Win Rate"? When we think about Frank's pick orders it was straight forward, he said, 'for the purpose of the first-pack, first-pick (P1P1) decision in draft, answering the question “which card would you first-pick?” for every conceivable booster pack. ' That is some pretty clear context. He chose a particular game state and made the scalar for that state. However we do not have that clear game state definition for GIH WR.
 
 The challenge with Game in Hand Win Rate is that its context is not a game state of a Magic game. When Frank publishes his pick orders he presents that scalar in the exact context of a Magic game, namely pack 1 pick 1. However there is never a moment in a Magic game where you have the context of a Game in Hand Win Rate.
 
