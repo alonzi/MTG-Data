@@ -86,12 +86,12 @@ Both cards look better but Lunarch Veteran looks even better. Given this informa
 
 But this scalar does not tell the whole story. Remember the second fundamental principle of Scalar Theory. We are not in a perfect context match. Our context is drafting, but our scalar (GIH WR) is about cards being in a player's hand. So there caveats. For example, what are the other cards I have drafted?
 
-## Core question of Scalar Theory
+## Core question\ of Scalar Theory
 Is my context close enough to the context of the scalar?
 
 
 ### Answering this question for Game in Hand Win Rate
-Usually the answer to the core question when considering GIH WR will be, "no". So we move to its helper question, "If not, what caveats must I consider before using the scalar?" This is where using GIH WR gets very tricky. I would reccomened looking at how the experts use this scalar and how they contextualize it. Great resources include Sam Black's work on Drafting Archetypes [8].
+Usually the answer to the core question when considering GIH WR will be, "no". So we move to its helper question, "If not, what caveats must I consider before using the scalar?" This is where using GIH WR gets very tricky. I would reccomened looking at how the experts use this scalar and how they contextualize it. A great place to start is Sam Black's work on _Drafting Archetypes_ [8].
 
 Answering these question for GIH WR is very tricky. The context of GIH WR is not defined in the basis of Magic game states.
 
