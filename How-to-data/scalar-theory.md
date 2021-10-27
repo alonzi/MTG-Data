@@ -63,7 +63,9 @@ Not at all. Let's look at the definition again:
 
 `The win rate of games where an instance of this card appeared in the hand, either in the opening hand or later. Each instance of a card is counted, so a game having a copy of a card in the opening hand and then two more copies drawn later has three times as much weight as an opening hand with only one copy.`
 
-Here we can see that this scalar contains information about the effectiveness of a card for achieving our goal of winning a game. That is valuable. But let's look again at our sample contexts: pack 1 pick 1, and mid draft after we have decided on a color pair. In these contexts we are trying to find pieces for our deck. What we would really like to have is:
+Here we can see that this scalar contains information about the effectiveness of a card for achieving our goal of winning a game. That is valuable. But let's look again at our sample contexts: pack 1 pick 1, and mid draft after we have decided on a color pair. In these contexts we are trying to find pieces for our deck.
+
+What we would really like to have is:
 
 `The probability that drafting this card will improve our win rate in the current draft event.`
 
