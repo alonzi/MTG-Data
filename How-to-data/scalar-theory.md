@@ -71,9 +71,9 @@ What we would really like to have is:
 
 Then we could simply compare the value of this scalar for all the cards and make the correct selection. Of course this requires the collective knowledge of the universe, past, present, and future (CKotUPPaF). Which is something we will never have. So let's look at the difference between these two definitions and find some overlap.
 
-GIH WR contains information about how a card impacts win rate and our imaginary scalar also contains information about how a card impacts win rate. Some kernel of the information we are after is contained in GIH WR. And GIH WR is a knowable value! I can look it up. But since the context isn't perfect there is a veil obscuring it, and that makes using the scalar tricky.
+GIH WR contains information about how a card impacts win rate and our imaginary scalar also contains information about how a card impacts win rate. Some kernel of the information we are after is contained in GIH WR. And GIH WR is a knowable value! I can look it up. But since the context isn't perfect there is a veil obscuring it, and that makes using GIH WR tricky.
 
-### Context 2 revisited
+### Context 2 (revisited)
 You are most of the way through a draft, you know you are playing White Blue (aka WU), and are choosing between Lunarch Veteran and Flip the Switch.They have the following GIH WR:
 * Lunarch Veteran - 60.6%
 * Flip the Switch - 60.1%
@@ -82,9 +82,9 @@ But let's add a little more context. We know we are playing White Blue (WU) so n
 * Lunarch Veteran - 62.3%
 * Flip the Switch - 60.5% 
 
-Both cards look better but Lunarch Veteran looks even better. Given this information I am leaning Lunarch Veteran base on this information.
+Both cards look better but Lunarch Veteran looks even better. Given this information I am leaning towards Lunarch Veteran.
 
-But remember the second fundamental principle of Scalar Theory. We are not in a perfect context match. Our context is drafting, but our scalar (GIH WR) is about cards being in a player's hand. So there caveats. For example, what are the other cards I have drafted?
+But this scalar does not tell the whole story. Remember the second fundamental principle of Scalar Theory. We are not in a perfect context match. Our context is drafting, but our scalar (GIH WR) is about cards being in a player's hand. So there caveats. For example, what are the other cards I have drafted?
 
 ## Core question of Scalar Theory
 Is my context close enough to the context of the scalar?
