@@ -48,7 +48,7 @@ I've stated that we need to know the context to apply a scalar. But what exactly
 First let's reflect on Frank's pick order. The context was explicity stated as, "for the purpose of the first-pack, first-pick (P1P1) decision in draft, answering the question “which card would you first-pick?” for every conceivable booster pack. ' He chose a particular game state and made a scalar just for that state. We have a perfect context match. If it is pack 1 pick 1 we know exactly how to interpret Frank's pick order. Now play the tape forward. As every additional pack comes in we move further from the context of Frank's pick order and start adding more and more caveats.
 
 
-The challenge with Game in Hand Win Rate is that its context is not a game state of a Magic game. You will never be in the exact context of GIH WR. So what do we do given the fundamental principle of Scalar Theory? How can we use GIH WR if we are never in context and caveats abound. [7]
+The challenge with Game in Hand Win Rate is that its context is not a game state of a Magic game. You will never be in the exact context of GIH WR. So what do we do given the fundamental principle of Scalar Theory? How can we use GIH WR if we are never in its context and caveats abound. [7]
 
 
 ## Is it usesless to consider Game in Hand Win Rate?
@@ -62,7 +62,17 @@ Here we can see that this scalar contains information about the effectiveness of
 
 Then we could simply compare the value of this scalar for all the cards and make the correct selection. Of course this requires the collective knowledge of the universe, past, present, and future (CKotUPPaF). Which is something we will never have. So let's look at the difference between these two definitions and find some overlap.
 
-GIH WR contains information about how a card impacts your win rate and our imaginary scalar also contains information about how a card impacts our win rate. Some kernel of the information we are after is contained in GIH WR. And GIH WR is a knowable value. I can look it up. The question is ...
+GIH WR contains information about how a card impacts your win rate and our imaginary scalar also contains information about how a card impacts our win rate. Some kernel of the information we are after is contained in GIH WR. And GIH WR is a knowable value! I can look it up.
+
+So let's consider context 2 again. We have two cards, Lunarch Veteran and Flip the Switch. They have the following GIH WR:
+* Lunarch Veteran - 60.6%
+* Flip the Switch - 60.1%
+
+But let's add a little more context. We know we are playing White Blue (WU) so now let's look at GIH WR for WU decks:
+* Lunarch Veteran - 62.3%
+* Flip the Switch - 60.5% 
+
+Both cards look better but Lunarch Veteran looks even better. But, we're not done yet. We can't use this value yet, because we don't have enough context. We need to know more context. We need to know what cards we have already drafted.
 
 ## Core question of Scalar Theory
 Is this context close enough to the context of the scalar?
