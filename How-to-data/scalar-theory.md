@@ -20,7 +20,7 @@ All of these examples are numbers, they are all scalars. Understanding how to us
 
 For example, GIH WR doesn't tell you how a card was used in a game, it doesn't tell you the quality of the opponents, or even how many games are in the sample used to calculate GIH WR. All of these features are part of the context and you have to bring those yourself, a scalar isn't going to do that for you.
 
-## Fundamental principle #1 of Scalar Theory
+## The first fundamental principle of Scalar Theory
 When you use a scalar, make sure you apply it in context.
 
 ## Let's get some context
@@ -50,7 +50,7 @@ First let's reflect on Frank's pick order. The context was explicity stated as, 
 
 The challenge with Game in Hand Win Rate is that its context is not a game state of a Magic game. You will never be in the exact context of GIH WR. So what do we do given the fundamental principle of Scalar Theory? How can we use GIH WR if we are never in its context and caveats abound. [7]
 
-## Fundamental principle #2 of Scalar Theory
+## The second fundamental principle of Scalar Theory
 If the contex is not a perfect match there are caveats.
 
 ## Is it usesless to consider Game in Hand Win Rate?
@@ -88,9 +88,9 @@ Answering this question for GIH WR is very tricky. The context of GIH WR is not 
 
 
 # Summary
-Fundamental Principle #1: When you use a scalar, make sure you apply it in context.
-Fundamental Principle #2: If the contex is not a perfect match there are caveats.
-Core question to ask: Is my context close enough to the context of the scalar?
+* Fundamental Principle #1: When you use a scalar, make sure you apply it in context.
+* Fundamental Principle #2: If the contex is not a perfect match there are caveats.
+* Core question to ask: Is my context close enough to the context of the scalar?
 
 
 Thanks for reading. I hope you enjoyed this piece. [About the author](https://github.com/alonzi/MTG-Data/blob/b4c21adc50da5804015552fe2445cea5df8c4c60/about-the-author.md)
