@@ -86,15 +86,12 @@ Both cards look better but Lunarch Veteran looks even better. Given this informa
 
 But this scalar does not tell the whole story. Remember the second fundamental principle of Scalar Theory. We are not in a perfect context match. Our context is drafting, but our scalar (GIH WR) is about cards being in a player's hand. So there caveats. For example, what are the other cards I have drafted?
 
-## Core question\ of Scalar Theory
+## Core question of Scalar Theory
 Is my context close enough to the context of the scalar?
 
 
 ### Answering this question for Game in Hand Win Rate
-Usually the answer to the core question when considering GIH WR will be, "no". So we move to its helper question, "If not, what caveats must I consider before using the scalar?" This is where using GIH WR gets very tricky. I would reccomened looking at how the experts use this scalar and how they contextualize it. A great place to start is Sam Black's work on _Drafting Archetypes_ [8].
-
-Answering these question for GIH WR is very tricky. The context of GIH WR is not defined in the basis of Magic game states.
-
+Usually the answer to the core question when considering GIH WR will be, "no". So we move to its helper question, "If not, what caveats must I consider before using the scalar?" This is where using GIH WR gets very tricky. I would reccomened looking at how the experts use this scalar and how they contextualize it. A great place to start is Sam Black's work on _Drafting Archetypes_ [8]. He does a great job of describing all of the context surrounding the scalars he uses before drawing conclusions.
 
 # Summary
 * Fundamental Principle #1: When you use a scalar, make sure you apply it in context.
@@ -102,7 +99,9 @@ Answering these question for GIH WR is very tricky. The context of GIH WR is not
 * Core question to ask: Is my context close enough to the context of the scalar?
 
 
-Thanks for reading. I hope you enjoyed this piece. [About the author](https://github.com/alonzi/MTG-Data/blob/b4c21adc50da5804015552fe2445cea5df8c4c60/about-the-author.md)
+
+## Thanks for reading.
+I hope you enjoyed this piece. [About the author](https://github.com/alonzi/MTG-Data/blob/b4c21adc50da5804015552fe2445cea5df8c4c60/about-the-author.md)
 
 ### Footnotes
 1. The term Scalar Theory is an homage to Quadrant Theory from Brian Wong on Limited Resources: https://lrcast.com/limited-resources-184-card-evaluation-with-brian-wong/
