@@ -1,5 +1,5 @@
 # Scalar Theory
-I am writing this article to directly respond to the constant refrain of "but Game in Hand Win Rate doesn't tell the whole story". I absolutely agree that it doesn't tell the whole story. My objective is to provide some of the data science behind that number and equip the reader to understand numbers like it. I am calling this principle Scalar Theory. We will need to dip into a little jargon, namely the idea of a scalar. So we will start by defining a scalar and the core principle of scalar theory. Then get into examples. Let's go!
+I am writing this article to directly respond to the constant refrain of "but Game in Hand Win Rate doesn't tell the whole story". I absolutely agree that it doesn't tell the whole story. My objective is to provide some of the data science behind Game in Had Win Rate (GIH WR) and equip the reader to understand numbers like it. I am calling this framework Scalar Theory [1]. We will need to dip into a little jargon, namely the idea of a scalar and the broader area of information theory. We will start by defining a scalar and the core principle of scalar theory. Then get into examples to help you understand and put Scalar Theory into practice. Let's go!
 
 ## What is Game in Hand Win Rate (GIH WR)?
 Game in Hand Win Rate is defined by 17 Lands as: 
@@ -68,6 +68,7 @@ Answering this question for GIH WR is very tricky. The context is not defined th
 
 
 ### Footnotes
+1. The term Scalar Theory is an homage to Quadrant Theory from Brian Wong on Limited Resources: https://lrcast.com/limited-resources-184-card-evaluation-with-brian-wong/
 1. https://www.17lands.com/card_ratings
 2. https://strategy.channelfireball.com/all-strategy/cfb-pro-content/pick-order-for-innistrad-midnight-hunt-limited/
 3. https://strategy.channelfireball.com/all-strategy/cfb-pro-content/lsvs-innistrad-midnight-hunt-limited-set-re-review/
