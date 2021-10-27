@@ -43,11 +43,15 @@ You are most of the way through a draft, you know you are playing White Blue (ak
 I am going to consider the 17 Lands GIH WR. I've made a different choice because the context is different. But there are some caveats, and that's the rub. When context isn't a perfect match we have caveats.
 
 ### So what is the context for Game in Hand Win Rate?
-I've stated that we need to know the context to apply a scalar. But what exactly is the context of "Game in Hand Win Rate"? When we think about Frank's pick orders it was straight forward, he said, 'for the purpose of the first-pack, first-pick (P1P1) decision in draft, answering the question “which card would you first-pick?” for every conceivable booster pack. ' That is some pretty clear context. He chose a particular game state and made the scalar for that state. However we do not have that clear game state definition for GIH WR.
+I've stated that we need to know the context to apply a scalar. But what exactly is the context of "Game in Hand Win Rate"? 
 
-The challenge with Game in Hand Win Rate is that its context is not a game state of a Magic game. When Frank publishes his pick orders he presents that scalar in the exact context of a Magic game, namely pack 1 pick 1. However there is never a moment in a Magic game where you have the context of a Game in Hand Win Rate.
+First let's reflect on Frank's pick order. The context was explicity stated as, "for the purpose of the first-pack, first-pick (P1P1) decision in draft, answering the question “which card would you first-pick?” for every conceivable booster pack. ' He chose a particular game state and made a scalar just for that state. We have a perfect context match. If it is pack 1 pick 1 we know exactly how to interpret Frank's pick order. Now play the tape forward. As every additional pack comes in we move further from the context of Frank's pick order and start adding more and more caveats.
 
-### So is it usesless to consider Game in Hand Win Rate?
+
+The challenge with Game in Hand Win Rate is that its context is not a game state of a Magic game. You will never be in the exact context of GIH WR. So what do we do given the fundamental principle of Scalar Theory? How can we use GIH WR if we are never in context and caveats abound. [7]
+
+
+## Is it usesless to consider Game in Hand Win Rate?
 Not at all. Let's look at the definition again:
 
 `The win rate of games where an instance of this card appeared in the hand, either in the opening hand or later. Each instance of a card is counted, so a game having a copy of a card in the opening hand and then two more copies drawn later has three times as much weight as an opening hand with only one copy.`
@@ -76,3 +80,4 @@ Answering this question for GIH WR is very tricky. The context is not defined th
 4. https://strategy.channelfireball.com/all-strategy/cfb-pro-content/lsvs-innistrad-midnight-hunt-limited-set-re-review/
 5. https://media.wizards.com/2021/mid/en_9KarCuKRcO.png
 6. Which is not to say Frank has the ideal pick order, but I can assure you at any point in time he is very likely to have the better pick order than me.
+7. In case you are wondering it is this never ending parade of caveats that make data anlysis hard and also what separate pro magic players from people like me.
