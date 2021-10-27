@@ -86,7 +86,7 @@ Both cards look better but Lunarch Veteran looks even better. Given this informa
 
 But this scalar does not tell the whole story. Remember the second fundamental principle of Scalar Theory. We are not in a perfect context match. Our context is drafting, but our scalar (GIH WR) is about cards being in a player's hand. So there caveats. For example, what are the other cards I have drafted?
 
-## Core questions of Scalar Theory
+## Core question of Scalar Theory
 Is my context close enough to the context of the scalar?
 
 
