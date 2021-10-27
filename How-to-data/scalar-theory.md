@@ -64,7 +64,8 @@ Then we could simply compare the value of this scalar for all the cards and make
 
 GIH WR contains information about how a card impacts your win rate and our imaginary scalar also contains information about how a card impacts our win rate. Some kernel of the information we are after is contained in GIH WR. And GIH WR is a knowable value! I can look it up.
 
-So let's consider context 2 again. We have two cards, Lunarch Veteran and Flip the Switch. They have the following GIH WR:
+### Context 2 revisited
+You are most of the way through a draft, you know you are playing White Blue (aka WU), and are choosing between Lunarch Veteran and Flip the Switch.They have the following GIH WR:
 * Lunarch Veteran - 60.6%
 * Flip the Switch - 60.1%
 
@@ -72,7 +73,7 @@ But let's add a little more context. We know we are playing White Blue (WU) so n
 * Lunarch Veteran - 62.3%
 * Flip the Switch - 60.5% 
 
-Both cards look better but Lunarch Veteran looks even better. But, we're not done yet. We can't use this value yet, because we don't have enough context. We need to know more context. We need to know what cards we have already drafted.
+Both cards look better but Lunarch Veteran looks even better. But, we're not done yet. We can't use this value yet, because we don't have enough context. I would argue we need to know what cards we have already drafted.
 
 ## Core question of Scalar Theory
 Is this context close enough to the context of the scalar?
