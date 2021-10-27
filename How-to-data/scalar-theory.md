@@ -3,6 +3,7 @@ I am writing this article to directly respond to the constant refrain of "but Ga
 1. Provide some of the data science behind Game in Had Win Rate (GIH WR)
 2. Equip the reader to understand numbers like GIH WR
 3. Help the reader put this understanding into practical use. 
+
 I am calling this framework Scalar Theory [1]. We will need to dip into a little jargon, namely the idea of a scalar and the broader area of information theory, so brace yourself. We will start by defining a scalar, and then discuss the fundamental principles of Scalar Theory with examples. Let's go!
 
 ## What is Game in Hand Win Rate (GIH WR)?
