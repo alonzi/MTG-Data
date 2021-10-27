@@ -1,5 +1,9 @@
 # Scalar Theory
-I am writing this article to directly respond to the constant refrain of "but Game in Hand Win Rate doesn't tell the whole story". I absolutely agree that it doesn't tell the whole story. My objective is to provide some of the data science behind Game in Had Win Rate (GIH WR) and equip the reader to understand numbers like it and put them to use. I am calling this framework Scalar Theory [1]. We will need to dip into a little jargon, namely the idea of a scalar and the broader area of information theory. We will start by defining a scalar, then discuss the fundamental principles of Scalar Theory with examples. Finishing up with how to put Scalar Theory into practice. Let's go!
+I am writing this article to directly respond to the constant refrain of "but Game in Hand Win Rate doesn't tell the whole story". I absolutely agree that it doesn't tell the whole story. My objectives are to:
+1. Provide some of the data science behind Game in Had Win Rate (GIH WR)
+2. Equip the reader to understand numbers like GIH WR
+3. Help the reader put this understanding into practical use. 
+I am calling this framework Scalar Theory [1]. We will need to dip into a little jargon, namely the idea of a scalar and the broader area of information theory, so brace yourself. We will start by defining a scalar, and then discuss the fundamental principles of Scalar Theory with examples. Let's go!
 
 ## What is Game in Hand Win Rate (GIH WR)?
 Game in Hand Win Rate is defined by 17 Lands as: 
