@@ -1,7 +1,7 @@
 # Scalar Theory
 I am writing this article to directly respond to the constant refrain of "but Game in Hand Win Rate doesn't tell the whole story". I absolutely agree that it doesn't tell the whole story. My objectives are to:
-1. Provide some of the data science behind Game in Had Win Rate (GIH WR)
-2. Equip the reader to understand numbers like GIH WR
+1. Provide some of the data science behind Game in Had Win Rate (GIH WR).
+2. Equip the reader to understand numbers like GIH WR.
 3. Help the reader put this understanding into practical use. 
 
 I am calling this framework Scalar Theory [1]. We will need to dip into a little jargon, namely the idea of a scalar and the broader area of information theory, so brace yourself. We will start by defining a scalar, and then discuss the fundamental principles of Scalar Theory with examples. Let's go!
@@ -23,7 +23,7 @@ Here are a few examples of scalars:
 
 All of these examples are numbers, they are all scalars. Understanding how to use them requires context. Contex is the key, when people say "but Game in Hand Win Rate doesn't tell the whole story" what they are saying is "that number doesn't have all the information you need". It lacks context.
 
-For example, GIH WR doesn't tell you how a card was used in a game, it doesn't tell you the quality of the opponents, or even how many games are in the sample used to calculate GIH WR. All of these features are part of the context and you have to bring those yourself, a scalar isn't going to do that for you.
+For example, GIH WR doesn't tell you how a card was used in a game, it doesn't tell you the quality of the opponents, or even how many games are in the sample used to calculate GIH WR. All of these features are part of the context and you have to bring those yourself, a scalar isn't going to do that for you. Which brings us to the first principle ...
 
 ## The first fundamental principle of Scalar Theory
 When you use a scalar, make sure you apply it in context.
@@ -38,14 +38,14 @@ You have just started a draft, it is pack 1 pick 1. Which scalar would you rathe
 1. Frank Karsten's pick order
 2. 17 Lands Game in Hand Win Rate
 
-I am going to trust Frank because this is the exact context for which he created that scalar. Using it here is a perfect context match. [6]
+I am going to choose Frank's pick order because this is the exact context for which he created that scalar. Using it here is a perfect context match. [6]
 
 ### Context 2
 You are most of the way through a draft, you know you are playing White Blue (aka WU), and are choosing between Lunarch Veteran and Flip the Switch. Which scalar would you rather have for each card?
 1. Frank Karsten's pick order
 2. 17 Lands Game in Had Win Rate
 
-I am going to consider the 17 Lands GIH WR. I've made a different choice because the context is different. But there are some caveats, and that's the rub. When context isn't a perfect match we have caveats.
+I am going to choose the 17 Lands GIH WR. I've made a different choice because the context is different. But there are some caveats, and that's the rub. When context isn't a perfect match we have caveats.
 
 ### So what is the context for Game in Hand Win Rate?
 I've stated that we need to know the context to apply a scalar. But what exactly is the context of "Game in Hand Win Rate"? 
@@ -53,7 +53,7 @@ I've stated that we need to know the context to apply a scalar. But what exactly
 First let's reflect on Frank's pick order. The context was explicity stated as, "for the purpose of the first-pack, first-pick (P1P1) decision in draft, answering the question “which card would you first-pick?” for every conceivable booster pack. ' He chose a particular game state and made a scalar just for that state. We have a perfect context match. If it is pack 1 pick 1 we know exactly how to interpret Frank's pick order. Now play the tape forward. As every additional pack comes in we move further from the context of Frank's pick order and start adding more and more caveats.
 
 
-The challenge with Game in Hand Win Rate is that its context is not a game state of a Magic game. You will never be in the exact context of GIH WR. So what do we do given the fundamental principle of Scalar Theory? How can we use GIH WR if we are never in its context and caveats abound. [7]
+The challenge with Game in Hand Win Rate is that its context is not a game state of a Magic game. You will never be in the exact context of GIH WR. So what do we do given the fundamental principle of Scalar Theory? How can we use GIH WR if we are never in its context and caveats abound. [7] We have now introduced our second principle ...
 
 ## The second fundamental principle of Scalar Theory
 If the contex is not a perfect match there are caveats.
@@ -69,7 +69,7 @@ Here we can see that this scalar contains information about the effectiveness of
 
 Then we could simply compare the value of this scalar for all the cards and make the correct selection. Of course this requires the collective knowledge of the universe, past, present, and future (CKotUPPaF). Which is something we will never have. So let's look at the difference between these two definitions and find some overlap.
 
-GIH WR contains information about how a card impacts your win rate and our imaginary scalar also contains information about how a card impacts our win rate. Some kernel of the information we are after is contained in GIH WR. And GIH WR is a knowable value! I can look it up.
+GIH WR contains information about how a card impacts win rate and our imaginary scalar also contains information about how a card impacts win rate. Some kernel of the information we are after is contained in GIH WR. And GIH WR is a knowable value! I can look it up. But since the context isn't perfect there is a veil obscuring it, and that makes using the scalar tricky.
 
 ### Context 2 revisited
 You are most of the way through a draft, you know you are playing White Blue (aka WU), and are choosing between Lunarch Veteran and Flip the Switch.They have the following GIH WR:
