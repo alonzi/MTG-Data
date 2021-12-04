@@ -4,9 +4,10 @@
 # fun!
 
 # import ROOT # need to bring in pyroot https://root.cern/manual/python/
-
 import pandas as pd
-
+import datetime
+#import matplotlib
+import matplotlib.pyplot as plt
 
 # read in data
 filepath = "./2021-12-01-17lands-premier-data/"
@@ -21,11 +22,27 @@ print(df2.head)
 
 # select final result of each draft
 df3 = df2.groupby("draft_id").max()
+
+# convert time to pandas._libs.tslibs.timestamps.Timestamp
+df3["draft_time_days"] = (pd.to_datetime(df3["draft_time"]).astype(int)/10**9/60/60/24)%7
+df3["draft_time_hour"] = (pd.to_datetime(df3["draft_time"]).astype(int)/10**9/60/60)%24
 print(df3.head)
 
 
 # analysis
-# histogram - draft time by hour of day and day of week 2d
-# histogram - event_match_wins
 
-df3["event_match_wins"].plot.hist()
+# histogram - wins
+#binning = [x-0.5 for x in range(9)]
+#df3["event_match_wins"].plot.hist(bins=binning)
+#plt.show()
+
+
+# histogram - day of the week
+#binning = [x-0.5 for x in range(8)]
+#df3["draft_time_days"].plot.hist(bins=binning)
+#plt.show()
+
+# histogram - hour of the day
+binning = [x-0.5 for x in range(25)]
+df3["draft_time_hour"].plot.hist(bins=binning)
+plt.show()
