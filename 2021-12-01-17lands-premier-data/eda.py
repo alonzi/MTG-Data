@@ -24,25 +24,35 @@ print(df2.head)
 df3 = df2.groupby("draft_id").max()
 
 # convert time to pandas._libs.tslibs.timestamps.Timestamp
-df3["draft_time_days"] = (pd.to_datetime(df3["draft_time"]).astype(int)/10**9/60/60/24)%7
-df3["draft_time_hour"] = (pd.to_datetime(df3["draft_time"]).astype(int)/10**9/60/60)%24
-print(df3.head)
-
-
+df3["day_name"] = pd.to_datetime(df3["draft_time"]).dt.day_name()
+df4 = df3.groupby(df3["day_name"]).size()
+#df3["day_name"] = pd.to_datetime(df3["draft_time"]).dt.day
+df3["day_hour"] = pd.to_datetime(df3["draft_time"]).dt.hour
+#print(df3["day_name"].head())
 # analysis
 
+
+
+
+fig, (ax1, ax2, ax3) = plt.subplots(1, 3)
+fig.suptitle('plots')
+
 # histogram - wins
-#binning = [x-0.5 for x in range(9)]
-#df3["event_match_wins"].plot.hist(bins=binning)
+plt.sca(ax1)
+ax1.set_xlabel('wins') 
+binning = [x-0.5 for x in range(9)]
+df3["event_match_wins"].plot.hist(bins=binning)
 #plt.show()
 
 
 # histogram - day of the week
-#binning = [x-0.5 for x in range(8)]
-#df3["draft_time_days"].plot.hist(bins=binning)
+plt.sca(ax2) 
+df4.plot.bar()
 #plt.show()
 
 # histogram - hour of the day
+plt.sca(ax3)
+ax3.set_xlabel('hour (UTC±00:00 aka ET+5:00)') 
 binning = [x-0.5 for x in range(25)]
-df3["draft_time_hour"].plot.hist(bins=binning)
+df3["day_hour"].plot.hist(bins=binning)
 plt.show()
