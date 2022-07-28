@@ -37,12 +37,14 @@ Entropy is missing information aka how much info you need to determine a system
 
 
 ## Constants
-Nup = 1578502390319254400 # number of unique packs
-Pup = 1./Nup # probability of a given unique pack
-NU = 80 # number of uncommons
-NUpp = 3 # number of uncommons per pack
-NC = 101 # number of commons
-NCpp = 10 # number of commons per pack
+| Variable | Value | Notes |
+|----------|-------|-------|
+|Nup       | 1578502390319254400 | number of unique packs|
+|Pup  | 1./Nup | probability of a given unique pack|
+|NU   | 80 | number of uncommons|
+|NUpp | 3 | number of uncommons per pack|
+|NC   | 101 | number of commons|
+|NCpp | 10 | number of commons per pack|
 
 ## Derived Quantities
 Entropy of a pack = log2(Nup) = log(2, binomial(80, 3) binomial(101, 10)) = 60.453262153291854508268550281981164583609486916645009310957956923... bits
