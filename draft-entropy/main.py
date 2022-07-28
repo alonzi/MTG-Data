@@ -22,6 +22,18 @@ def main():
     myTable = classes.tbl()
     myTable.getEntropy()
 
+    # start loop
+    while(myTable.packs[0].cards()>1):
+        print("\nMake pick")
+        myTable.makePick()
+        myTable.getEntropy()
+
+        print("\nPass")
+        myTable.makePass()
+        myTable.getEntropy()
+    # end loop
+
+    myTable.getEntropy()
 
 if __name__ == "__main__":
     main()
