@@ -40,7 +40,7 @@ Entropy is missing information aka how much info you need to determine a system
 | Variable | Value | Notes |
 |----------|-------|-------|
 |Nup       | 1578502390319254400 | number of unique packs|
-|Pup  | 1./Nup | probability of a given unique pack|
+|Pup  | 1./Nup = 6.3x10^-19 | probability of a given unique pack|
 |NU   | 80 | number of uncommons|
 |NUpp | 3 | number of uncommons per pack|
 |NC   | 101 | number of commons|
