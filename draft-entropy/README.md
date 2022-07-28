@@ -1,3 +1,7 @@
+# Draft Entropy Study
+The goal of this study is to understand how much information a player gets at the draft table. This can possibly lead to insights about signaling when taken in concert with Sierkovitz's analysis from: [Magic Numbers #35: Reading The Signals](https://www.youtube.com/watch?v=GeZFlfWx_J0&t=5017s)
+
+
 # Questions
 1. what is the entropy of an SNC pack -- 61 bits (upper bound) - assuming all p1p1 are rare/mythic and no color/gimick constraints
 2. what is the entropy of an SNC table -- 484 bits (upper bound) - just multiply by 8 seats
