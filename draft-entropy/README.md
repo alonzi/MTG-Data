@@ -14,6 +14,18 @@ To Do:
 * also after the wheel there is a compounding effect making the entropy calculation even worse
 
 
+---> Assessment: not worth it
+
+-----
+
+# Findings
+
+## Entropy after p1p8 before pass
+Make pick
+-- I am <classes.tbl object at 0x00000235354F5FD0> this is my entropy 151.9
+---- Pack Entropy [0, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3]
+---- Pool Entropy [0, 30.5, 26.9, 23.6, 20.4, 17.3, 11.1, 6.0]
+
 
 
 
