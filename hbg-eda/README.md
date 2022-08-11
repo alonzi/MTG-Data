@@ -15,8 +15,8 @@ license: these data sets are licensed under a [Creative Commons Attribution 4.0 
 * Data set 2 - `data/hbg-cards-alch.csv` : HBG data starting from alchmeny rebalance to date
 
 ## Usage
-$ cd hbg-eda
-$ python main.py <datafile>.csv
+`$ cd hbg-eda`
+`$ python main.py <datafile>.csv`
 
 ## Notes
 To Do:
