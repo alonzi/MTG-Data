@@ -6,13 +6,24 @@
 
 # imports
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # main function
 def main():
     print("\nhello world")
 
     df = pd.read_csv('hbg-eda/data/data.csv')
-    print(df)
+    
+    # begin cleaning
+    df.dropna(inplace=True)
+    df.GIHWR = df.GIHWR.str.rstrip('%').astype('float') / 100.0
+
+    df.GIHWR.hist()
+
+    plt.show()
+
+
+
 
 if __name__ == "__main__":
     main()
